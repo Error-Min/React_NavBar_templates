@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { DropdownMenu3 } from './DropdownMenu3';
 import '../styles/NavBarLogoPro/NavBarLogoPro.css'
-import logoImage from '../assets/logo02.png'; // 로고 이미지를 불러옵니다
+import logoImage from '../assets/logo02.png'; // 로고 이미지를 불러옵니다 test
 import profileImage from '../assets/profile_picture.png'; //프로필 이미지를 불러옵니다.
 
 export const NavBarLogoPro: React.FC = () => {
