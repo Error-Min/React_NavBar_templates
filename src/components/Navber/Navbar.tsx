@@ -9,7 +9,7 @@ export const Navbar: React.FC = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <Link to="/" className="nav-link">Logo</Link> {/*TEXT 로고*/}
+        <Link to="/" className="nav-link">Logo</Link> {/*TEXT Logo*/}
       </div>
       <div className="menu-item" onMouseEnter={() => setIsOpen(true)} onMouseLeave={() => setIsOpen(false)}>
         <Link to="#" className="nav-link">Menu</Link> {/*TEXT 메뉴*/}
