@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .navbar2 {
+    background-color: #bcbcbc;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px; /*오른쪽 왼쪽 logo 및 Menu 패딩*/
+  }
+  
+  .logo2, .menu-item2 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo2 {
+    margin-left: -50px; /*logo 왼쪽 마진 이동*/
+  }
+
+  .Logo2-img {
+    width: 140px;
+  }
+  
+  .menu-item2 {
+    position: relative;  /* 추가된 부분 */
+    /*margin-right: 60px;*/  /* 오른쪽 마진을 추가시 드롭다운 메뉴 링크 마진추가됨 */
+  }
+  
+  .nav-link2 {
+    color: black;
+    text-decoration: none;
+    margin-right: 0px; /*오른쪽 마진 이동*/
+  }
+  
+  .dropdown-wrapper2 {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .dropdown-menu2 {
+    background-color: #bcbcbc;
+    padding: 5px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .dropdown-menu2 a {
+    margin-bottom: 10px;
+    color: black;
+    text-decoration: none;
+    text-align: center; /* 드롭다운 메뉴 링크들 가운데 정렬*/
+  }

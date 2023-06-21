@@ -1,3 +1,5 @@
+{/*텍스트 타입 Logo 입니다. */}
+
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { DropdownMenu } from './DropdownMenu';
